@@ -6,7 +6,8 @@ import 'package:riverpods_project/home_screen.dart';
 
 // Provider(Read Only)
 
-final nameProvider = Provider<String>((ref) => "Sourabh Jain");
+// final nameProvider = Provider<String>((ref) => "Sourabh Jain");
+final nameProvider = StateProvider<String?>((ref) => null);
 
 void main() {
   runApp(
