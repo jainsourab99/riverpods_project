@@ -5,6 +5,8 @@ import 'package:riverpods_project/home_screen.dart';
 // Provider Type
 
 // Provider(Read Only)
+// StateProvider
+// StateNotifier and StateNotifierProvider
 
 // final nameProvider = Provider<String>((ref) => "Sourabh Jain");
 final nameProvider = StateProvider<String?>((ref) => null);
